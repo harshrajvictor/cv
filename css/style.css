@@ -1,0 +1,129 @@
+/* font-family: 'Crimson Text', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive; */
+
+
+
+
+body{margin: 0;
+text-align: center;}
+
+h2{
+  color: #66BFBF;
+  font-size:2em;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .5em;
+}
+h3{
+  color: #11999E;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+.top-container{background-color: #E4FBFF;
+
+padding-top: 5em;
+padding-bottom: 1em;
+
+}
+
+.title{
+font-family: 'Tangerine', cursive;
+font-size: 10em;
+margin: 0 auto 0 auto;
+color: #4F9DA6;
+}
+
+.subtitle{
+font-size: 2em;
+margin: 0;
+color: #4F9DA6;
+}
+
+.cloud1{
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+
+.cloud2{
+  display: inline-block;
+  position: absolute;
+  left: 5%;
+  top: 20%;
+}
+.mountain{
+  margin: 0;
+  width: 25%;
+  border: solid .3em #4F9DA6;
+  border-radius: 50%;
+
+}
+.profile-picture{
+  width: 25%;
+
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 1.5;
+}
+.teacher-image{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.developer-image{
+  width: 20%;
+  float:right;
+  margin-left: 30px;
+}
+.hr{
+  width: 3%;
+  border: dotted .3em #EAF6F6;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+
+.BUTTON {
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 12px;
+   font-weight: 200;
+   padding: 5px;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON:hover {
+   background: #6BE3E3;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 2em 0 0 0;
+  padding: 2em;
+}
+.footer-link{
+  margin: .5em;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #11999E;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
